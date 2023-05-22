@@ -1,4 +1,4 @@
-## Application1: Influence Maximization
+## Application: Influence Maximization
 
 * **Compilation**
 
@@ -20,7 +20,7 @@ make
 ./IM -c config_example.txt
 ```
 
-## Application2: Crowdsourcing
+## Application: Crowdsourcing
 
 * **Compilation**
 
