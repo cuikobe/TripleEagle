@@ -120,7 +120,7 @@ int main(int argc,char *argv[]) {
         /**********calculate average for random algorithm************/
 
         /**********calculate average for random algorithm************/
-        int repeat_time4=50;
+        int repeat_time4=1;
 
         vector<double> utility4;
         double sum_utility4=0.0;
@@ -171,7 +171,7 @@ int main(int argc,char *argv[]) {
         /**********calculate average for random algorithm************/
 
         /**********calculate average for random algorithm************/
-        int repeat_time5=50;
+        int repeat_time5=1;
 
         vector<double> utility5;
         double sum_utility5=0.0;
