@@ -16,7 +16,7 @@ make
 
 * **Run** 
 
-> Run all algorithms on the example data set.
+> Run all algorithms on the example dataset.
 
 ```setup
 ./IM -c config_example.txt
@@ -40,7 +40,7 @@ make
 
 * **Run** 
 
-> Run all algorithms on the example data set.
+> Run all algorithms on the example dataset.
 
 ```setup
 ./CS
