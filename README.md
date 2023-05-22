@@ -17,7 +17,7 @@ make
 * **Run** 
 
 ```setup
-./IM -c config_example.txt
+./IM -c config_example.txt 
 ```
 
 ## Application: Crowdsourcing
