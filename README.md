@@ -1,4 +1,4 @@
-## Application: Influence Maximization
+## Application1: Influence Maximization
 
 * **Compilation**
 
@@ -17,10 +17,10 @@ make
 * **Run** 
 
 ```setup
-./IM -c config_example.txt 
+./IM -c config_example.txt
 ```
 
-## Application: Crowdsourcing
+## Application2: Crowdsourcing
 
 * **Compilation**
 
@@ -39,5 +39,5 @@ make
 * **Run** 
 
 ```setup
-./CS 
+./CS
 ```
