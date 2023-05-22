@@ -24,8 +24,11 @@ int main(int argc, char* argv[]) {
     float B_end=10.01;
     float B_step=0.5;
 
-    e_RandomTM.seed(11);
-    e_BFM_RAN.seed(2);
+    e_RandomTM.seed(time(NULL));
+    e_BFM_RAN.seed(time(NULL));
+
+//    e_RandomTM.seed(11);
+//    e_BFM_RAN.seed(2);
 
     for(Budget=B_start;Budget<=B_end;Budget+=B_step)
     {
