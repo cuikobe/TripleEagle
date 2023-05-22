@@ -4,7 +4,8 @@
 #ifndef IMAGE_BFM_NM_H
 #define IMAGE_BFM_NM_H
 #include "GENSM_slow.h"
-default_random_engine e_BFM(5);
+//default_random_engine e_BFM(5);
+default_random_engine e_BFM(time(NULL));
 uniform_real_distribution<double> dis(0.0,1.0);
 void PRICING(S_class &A,const vector<int>&C,double neta,vector<double>&pi,const int &except_element,long long int &oracle_times,const double &Budget)
 {
