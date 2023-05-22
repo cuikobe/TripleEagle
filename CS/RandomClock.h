@@ -76,7 +76,8 @@ pair<int,double> Boost(multimap<double,Ai_node> &A,S_class &Si,const vector<int>
     }
     return pair<int,double>(ai,m);
 }
-default_random_engine e2(12345);
+//default_random_engine e2(12345);
+default_random_engine e2(time(NULL));
 Result RandomClock(double eps,double B)
 {
     cout<<"RandomClock & Budget: "<<B<<"---------start---------"<<endl;
