@@ -16,7 +16,7 @@ make
 
 * **Run** 
 
-> Run all algorithms on the example data set once.
+> Run all algorithms on the example data set.
 
 ```setup
 ./IM -c config_example.txt
@@ -40,7 +40,7 @@ make
 
 * **Run** 
 
-> Run all deterministic algorithms once and run all  randomized algorithms 50 times.
+> Run all algorithms on the example data set.
 
 ```setup
 ./CS
